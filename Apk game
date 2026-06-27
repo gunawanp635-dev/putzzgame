@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUTZZGAME</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#121212;
+color:white;
+}
+
+header{
+background:#00b894;
+padding:20px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.container{
+padding:20px;
+}
+
+.card{
+background:#1f1f1f;
+padding:15px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+.card img{
+width:80px;
+height:80px;
+border-radius:15px;
+margin-bottom:10px;
+}
+
+.card h2{
+margin-bottom:10px;
+}
+
+.card p{
+margin-bottom:10px;
+color:#ccc;
+}
+
+button{
+background:#00b894;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+opacity:0.8;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+PUTZZGAME
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://via.placeholder.com/80" alt="Logo">
+<h2>Contoh APK</h2>
+<p>Ini contoh aplikasi yang nanti bisa kamu ganti.</p>
+
+<a href="contoh.apk" download>
+<button>Download APK</button>
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
